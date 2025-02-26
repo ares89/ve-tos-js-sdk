@@ -319,7 +319,7 @@ export class TOSBase {
       return aliasType[oriType] || oriType;
     })();
     const nodeVersion = (() => {
-      return process.version.replaceAll('v', '');
+      return process.version.substring(1);
     })();
     const stdStr = `${sdkVersion} (${osType}/${process.arch};nodejs${nodeVersion})`;
     const moreStr = (() => {
