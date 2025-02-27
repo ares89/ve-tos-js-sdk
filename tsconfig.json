@@ -35,6 +35,9 @@
 
     "resolveJsonModule": true,
     "types": ["node", "miniprogram-api-typings", "jest"],
-    "paths": {}
+    "paths": {
+      "axios": ["node_modules/axios"]
+    },
+    "baseUrl": "./src"
   }
 }

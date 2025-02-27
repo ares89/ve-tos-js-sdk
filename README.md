@@ -42,3 +42,14 @@ npm i @volcengine/tos-sdk
 ## Changelog
 
 Detailed changes for each release are documented in the [CHANGELOG.md](https://github.com/volcengine/ve-tos-js-sdk/blob/main/CHANGELOG.md).
+
+
+## Build
+
+```shell
+npm install -g tsdx
+yarn install
+npm run build
+npm login
+npm publish
+```
